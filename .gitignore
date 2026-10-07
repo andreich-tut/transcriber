@@ -1,0 +1,53 @@
+# Swift / Xcode
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Built application and distribution artifacts
+dist/
+*.app/
+*.dSYM/
+*.xcarchive/
+*.dmg
+*.pkg
+
+# Private local notes, test runs and recordings
+.local-docs/
+.local-results/
+recordings/
+transcripts/
+*.wav
+*.m4a
+*.mp3
+*.mp4
+*.mov
+*.webm
+*.ogg
+*.flac
+*.aac
+*.aiff
+*.opus
+/*.txt
+/*.json
+
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# macOS and temporary files
+.DS_Store
+._*
+.AppleDouble/
+*.log
+*.swp
+*.swo
+*~
